@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gym Admission Form</title>
+</head>
+<body>
+
+    <h2>Gym Membership Form</h2>
+
+    <form action="gyminsert.php" method="POST">
+
+        <label>Member ID:</label><br>
+        <input type="number" name="mid" required><br><br>
+
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Age:</label><br>
+        <input type="number" name="age" required><br><br>
+
+        <label>Membership Plan:</label><br>
+        <select name="plan" required>
+            <option value="">--Select Plan--</option>
+            <option value="Monthly">Monthly</option>
+            <option value="Quarterly">Quarterly</option>
+            <option value="Yearly">Yearly</option>
+            <option value="Dual">Dual</option>
+            <option value="Trio">Trio</option>
+            <option value="Group">Group</option>
+        </select><br><br>
+
+        <label>Join Date:</label><br>
+        <input type="date" name="joined" required><br><br>
+
+        <input type="submit" value="Add Member">
+        <br>
+      <a href="gymdisplay.php">View Members</a>
+      <link rel="stylesheet" href="style.css">
+      <?php include 'header.php'; ?>
+
+    </form>
+
+</body>
+</html>

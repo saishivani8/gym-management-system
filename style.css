@@ -1,0 +1,298 @@
+/* 🌑 GLOBAL */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #000000, #1a1a1a, #0f0f0f);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* 🌸 HEADING */
+h2 {
+    text-align: center;
+    color: #ff4da6;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+/* marquee tag */
+/* 💖 CUTE PINK MARQUEE */
+/* 💖 MARQUEE BACKGROUND STRIP */
+.marquee-container {
+    width: 100%;
+    background: linear-gradient(90deg, #ff4da6, #ff85c1, #ff4da6);
+    padding: 8px 0;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(255, 77, 166, 0.6);
+}
+
+/* ✨ TEXT INSIDE */
+.marquee-container marquee {
+    color: #000;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+} 
+/* 🖤 FORM CARD */
+form {
+    width: 360px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #1a1a1a;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 77, 166, 0.3);
+}
+
+/* 🏷 LABEL */
+label {
+    font-weight: 600;
+    color: #ffb3d9;
+}
+
+/* ✏ INPUT + SELECT */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: #0f0f0f;
+    color: #fff;
+}
+
+/* ✨ INPUT FOCUS EFFECT */
+input:focus, select:focus {
+    outline: none;
+    border: 1px solid #ff4da6;
+    box-shadow: 0 0 5px #ff4da6;
+}
+
+/* 💖 BUTTON */
+input[type="submit"] {
+    background: linear-gradient(135deg, #ff4da6, #ff1a75);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #ff4da6;
+}
+
+/* 📊 TABLE */
+table {
+    width: 85%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background: #1a1a1a;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(255, 77, 166, 0.2);
+}
+
+/* 📌 HEADER */
+th {
+    background: #ff1a75;
+    color: white;
+    padding: 12px;
+}
+
+/* 📄 CELLS */
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+/* 🌫 ROW EFFECT */
+tr:nth-child(even) {
+    background: #141414;
+}
+
+/* 🔗 LINKS */
+a {
+    display: inline-block;
+    margin: 15px;
+    text-decoration: none;
+    color: #ff4da6;
+    font-weight: bold;
+}
+
+a:hover {
+    text-shadow: 0 0 5px #ff4da6;
+}
+
+/* 💡 FEE DISPLAY (FIXED) */
+#feeDisplay {
+    text-align: center;
+    font-weight: bold;
+    color: #ff4da6;
+    margin-top: 10px;
+}
+
+/* 🌑 HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: radial-gradient(circle, #1a1a1a, #000);
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: #ff4da6;
+}
+
+.tagline {
+    color: #ffb3d9;
+    font-size: 18px;
+    margin: 10px 0 20px;
+}
+
+/* 💖 BUTTON */
+.btn {
+    background: linear-gradient(135deg, #ff4da6, #ff1a75);
+    padding: 12px 25px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    box-shadow: 0 0 15px #ff4da6;
+    transform: scale(1.05);
+}
+
+/* ✨ SECTION */
+.section {
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* 🔥 FEATURES GRID */
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 12px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255, 77, 166, 0.3);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px #ff4da6;
+}
+
+/* 🖼️ GALLERY */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 250px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff4da6;
+}
+/* 🖤 TOP BAR (Brand Title) */
+.topbar {
+    text-align: center;
+    background: #0a0a0a;
+    padding: 20px 10px;
+    border-bottom: 1px solid #ff4da6;
+}
+
+.topbar h1 {
+    color: #ff4da6;
+    margin: 0;
+}
+
+.topbar .tagline {
+    color: #ffb3d9;
+    font-style: italic;
+}
+
+/* 💖 NAV CONTAINER */
+/* 💖 NAV CONTAINER */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: #000;
+}
+/* 🖤 BLACK BOX BUTTONS */
+.nav-card {
+    background: #0f0f0f;
+    padding: 12px 26px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+
+    border: 1px solid rgba(255, 77, 166, 0.3);
+
+    /* ✨ PINK GLOW */
+    box-shadow: 0 0 8px rgba(255, 77, 166, 0.4);
+
+    transition: all 0.3s ease;
+}
+
+/* 💅 HOVER EFFECT */
+.nav-card:hover {
+    box-shadow: 0 0 15px #ff4da6,
+                0 0 25px rgba(255, 77, 166, 0.7);
+    transform: translateY(-2px);
+    color: #ff85c1;
+}
+
+/* 🖤 GLOW PILL BUTTONS */
+.nav-card {
+    background: #111;
+    padding: 14px 28px;
+    border-radius: 30px; /* pill shape */
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+
+    border: 1px solid rgba(255, 77, 166, 0.3);
+
+    box-shadow: 0 0 10px rgba(255, 77, 166, 0.4),
+                0 0 20px rgba(255, 77, 166, 0.2);
+
+    transition: all 0.3s ease;
+}
+
+/* ✨ HOVER EFFECT */
+.nav-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px #ff4da6,
+                0 0 30px #ff4da6;
+    color: #ffb3d9;
+
+
+
+}
