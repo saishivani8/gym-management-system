@@ -38,3 +38,23 @@ miniproject/
 2. Import `database/project.sql` into MariaDB.
 3. Place the project inside `xampp/htdocs/`.
 4. Open `http://localhost/miniproject/` in your browser.
+
+## Screenshots
+
+### Home Page
+![Home Page](image/homephp.png)
+
+### About Us
+![About Us](image/aboutus.png)
+
+### Contact Us
+![Contact Us](image/contactus.png)
+
+### Registration Form
+![Registration Form](image/formphp.png)
+
+### Authorization
+![Authorization](image/authorization.png)
+
+### Database Table
+![Database Table](image/table.png)
